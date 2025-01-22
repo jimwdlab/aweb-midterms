@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { MyserviceService } from '../myservice.service';
+import { NewserviceService } from '../newservice.service';
 
 @Component({
   selector: 'app-new-cmp',
