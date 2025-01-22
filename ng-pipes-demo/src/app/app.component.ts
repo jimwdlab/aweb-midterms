@@ -5,11 +5,13 @@ import { interval } from 'rxjs';
 import { map } from 'rxjs/operators';
 import { MyserviceService } from './myservice.service';
 import { NewCmpComponent } from "./new-cmp/new-cmp.component";
+import { NewserviceService } from './newservice.service';
+import { AnotherCmpComponent } from "./another-cmp/another-cmp.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, CommonModule, NewCmpComponent],
+  imports: [RouterOutlet, CommonModule, NewCmpComponent, AnotherCmpComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
